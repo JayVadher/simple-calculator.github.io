@@ -1,0 +1,74 @@
+
+/* -----------------------------
+
+          BASIC STYLING 
+
+-------------------------------- */
+
+body {
+
+	box-sizing: border-box;
+	background: radial-gradient(#fff 5%, #ccc);
+}
+
+
+.heading, #answerWindow, .btn {
+	font-family: 'Nova Mono', monospace;
+}
+
+.application {
+	width: 50%;
+	margin: 0 auto;
+	background: #ff6e00;
+	padding: 1.5em;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px black;
+}
+
+.heading {
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin: 2px;
+}
+
+#notify {
+	font-size : 1.5em;
+	margin-top: 3px;
+}
+
+#answerWindow {
+
+	font-size: 3.5em;
+	background-color: #9bef5f;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2px 15px;
+	box-shadow: 3px 3px black inset;
+}
+
+.btn {
+	font-size: 3em;
+	margin: 4px;
+	width: 2.5em;
+	box-shadow: 0 3px black;
+}
+
+.erase {
+	background-color: #d11937;
+}
+
+.operators {
+	background-color: #19afd1;
+}
+
+.equals {
+	background-color: #f9f91d;
+}
+
+.btnContainer {
+	
+	padding: 20px;
+
+	
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<head>
+	
+<script type="text/javascript" src="myScript.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet"> 
+
+</head>
+
+
+<body>
+	
+<div class="application">
+	<h1 class="heading">simple calculator</h1>
+
+	<p id="notify">If you enter more than 16 characters
+		 the screen will clear and you will have to start again.
+	</p>
+
+	<p id="answerWindow" style="height: 1.2em"></p>
+
+	<div class="btnContainer">
+		<button type="button" class = "btn" onclick="num7()">7</button>
+		<button type="button" class = "btn" onclick="num8()">8</button>
+		<button type="button" class = "btn" onclick="num9()">9</button>
+		<button type="button" class = "btn operators" onclick="multiply()">*</button>
+
+		<button type="button" class = "btn" onclick="num4()">4</button>
+		<button type="button" class = "btn" onclick="num5()">5</button>
+		<button type="button" class = "btn" onclick="num6()">6</button>
+		<button type="button" class = "btn operators" onclick="divide()">/</button>
+
+		<button type="button" class = "btn" onclick="num1()">1</button>
+		<button type="button" class = "btn" onclick="num2()">2</button>
+		<button type="button" class = "btn" onclick="num3()">3</button>
+		<button type="button" class = "btn operators" onclick="minus()">-</button>
+
+		<button type="button" class = "btn" onclick="num0()">0</button>
+		<button type="button" class = "btn erase" onclick="clearAll()">C</button>
+		<button type="button" class = "btn equals" onclick="equalsTo()">=</button>
+		<button type="button" class = "btn operators" onclick="addition()">+</button>
+	</div>
+</div>
+</body>
+
+</HTML>
